@@ -15,7 +15,7 @@ h1 {
 }
 
 img {
-    width: 150 px;
+    width: 150px;
     height: auto;
     border: 1px solid black;
     padding: 2px;
@@ -34,6 +34,7 @@ aside {
     width: 30rem;
     margin: 1rem;
     border: 1px solid rgb(0, 0, 0 /0.2);
+    /* 1 */
     padding: 1rem;
     background-color: #eee;
     color: black;
@@ -50,7 +51,7 @@ main img {
     height: auto;
     border: 2px solid black;
     padding: 20px;
-    box-shadow: 50rem;
+    box-shadow: 20px;
 }
 
 footer {
