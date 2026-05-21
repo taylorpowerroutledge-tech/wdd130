@@ -13,6 +13,7 @@
 nav {
     background-color: var(--primary-color);
     padding: 10px;
+
 }
 
 nav a {
@@ -62,12 +63,13 @@ aside {
 aside img {
     width: 200px;
     height: auto;
+    float: none;
 }
 
 aside h2 {
     position: absolute;
-    top: 25 px;
-    right: 75px;
+    top: 20px;
+    right: 110px;
 }
 
 footer {
