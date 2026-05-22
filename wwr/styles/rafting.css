@@ -46,12 +46,13 @@ article {
 }
 
 .hero img {
+
     display: block;
     width: 100%;
     height: auto;
 }
 
-h1 {
+.hero h1 {
     position: absolute;
     top: 20px;
     width: 100%;
@@ -62,7 +63,7 @@ h1 {
     color: var(--font-color);
 }
 
-article {
+.hero article {
     position: absolute;
 }
 
