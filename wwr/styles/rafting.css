@@ -125,3 +125,31 @@ h2 {
     height: auto;
     justify-self: center;
 }
+
+.adventure {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.adventure h2 {
+    width: 100%;
+    text-align: center;
+}
+
+.adventure figure {
+    margin: 0;
+    text-align: center;
+}
+
+.adventure img {
+    width: 150px;
+    height: auto;
+}
+
+footer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
