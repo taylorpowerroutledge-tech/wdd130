@@ -111,25 +111,25 @@ h2 {
 
 }
 
-.history-content {
+.history {
     display: grid;
-    grid-template-columns: 40% 20% 40%;
+    grid-template-columns: 1fr auto 1fr;
     align-items: center;
-    width: 840px;
-    display: flex;
-    justify-content: flex-start;
 }
 
-.history-content img {
-    width: 200px;
-    height: auto;
-    justify-self: center;
+.history h2 {
+    grid-column: 1 / 4;
+    text-align: center;
+}
+
+.history img {
+    max-width: 200px;
 }
 
 .adventure {
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 10px;
     flex-wrap: wrap;
 }
 
