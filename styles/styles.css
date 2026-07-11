@@ -3,9 +3,18 @@ main {
 }
 
 nav {
+    background-color: blue;
+    padding: 5px;
+}
+
+Nav a {
     background-color: lightblue;
-    padding: 10px;
+    padding: 2px;
     display: block;
+}
+
+h1 {
+    color: black;
 }
 
 aside {
@@ -27,6 +36,8 @@ aside img {
 main img {
     width: 150px;
     height: auto;
+    padding: 1px;
+    box-shadow: inset;
 }
 
 p {
