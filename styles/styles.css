@@ -2,6 +2,12 @@ main {
     max-width: 840px;
 }
 
+nav {
+    background-color: lightblue;
+    padding: 10px;
+    display: block;
+}
+
 aside {
     width: 20rem;
     margin: 1rem;
