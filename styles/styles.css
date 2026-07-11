@@ -37,7 +37,8 @@ main img {
     width: 150px;
     height: auto;
     padding: 1px;
-    box-shadow: inset;
+    border: 1px black solid;
+    box-shadow: color(gray);
 }
 
 p {
