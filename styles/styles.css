@@ -59,6 +59,7 @@ p {
 }
 
 main {
+    max-width: 840px;
     grid-column: 2/3;
     margin: 1rem;
 }
