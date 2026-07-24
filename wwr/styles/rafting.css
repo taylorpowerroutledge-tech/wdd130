@@ -72,10 +72,9 @@ article {
 }
 
 .hero img {
-    display: block;
+    display: flex;
     width: 100%;
     height: auto;
-    display: flex;
     align-items: flex-end;
 }
 
