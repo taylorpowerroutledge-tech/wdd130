@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    max-width: 500px;
+    margin: 1rem;
+    border: 1px solid rgb(0, 0, 0 / 10%);
+    padding: 1rem;
+    background-color: darkblue;
+    color: #fff;
+
+}
+
+h1 {
+    margin: .5rem;
+}
+
+form {
+    margin: 1rem;
+    border: 1px solid black;
+    padding: 1rem;
+    background-color: lightblue;
+    color: black;
+
+}
+
+code {
+    display: block;
+    border: 1px solid black;
+    padding: 1rem;
+    background-color: black;
+    color: white;
+    text-align: center;
+
+}

@@ -1,0 +1,146 @@
+:root {
+    --primary-color: rgb(135, 119, 255);
+    --secondary-color: rgb(183, 183, 183);
+    --accent-color: black;
+    --body-font: Arial, Helvetica, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--body-font);
+    color: var(--accent-color);
+}
+
+header,
+main,
+footer {
+    width: 840px;
+    margin: 0 auto;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    grid-template-rows: 50% 50%;
+    border: 1px solid black;
+
+}
+
+h1,
+p {
+    text-align: center;
+    padding: .5rem;
+
+}
+
+p {
+    margin-bottom: 50px;
+}
+
+header nav {
+    grid-column: 2;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+h2 {
+    text-align: center;
+}
+
+iframe {
+    width: 300px;
+    height: 300px;
+}
+
+.map_form {
+    display: grid;
+    grid-template-columns: 320px 1fr;
+    gap: 40px;
+    align-items: start;
+}
+
+.map {
+    display: flex;
+    justify-content: center;
+}
+
+.form-item {
+    display: grid;
+    grid-template-columns: 180px 1fr;
+    gap: 10px 20px;
+    align-items: start;
+    margin-bottom: 20px;
+}
+
+.radio-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 8px;
+}
+
+textarea {
+    min-height: 120px;
+}
+
+.checkbox-item {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+button {
+    display: block;
+    margin: 20px auto;
+    width: 250px;
+    padding: 8px;
+}
+
+.employees {
+    border: 1px solid black;
+    padding: 20px;
+    margin-top: 30px;
+    text-align: center;
+    background-color: lightblue;
+}
+
+.employee-grid {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 30px;
+}
+
+.employee-grid figure {
+    text-align: center;
+}
+
+.employee-grid img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.employee-grid figcaption {
+    margin-top: 10px;
+    font-size: 0.9rem;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    padding: 10px;
+}
