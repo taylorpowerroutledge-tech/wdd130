@@ -1,7 +1,7 @@
 :root {
     --primary-color: rgb(135, 119, 255);
     --secondary-color: rgb(183, 183, 183);
-    --accent-color: black;
+    --accent-color: #000;
     --body-font: Arial, Helvetica, sans-serif;
 }
 
@@ -26,31 +26,34 @@ footer {
 header {
     display: grid;
     grid-template-columns: 20% 80%;
-    grid-template-rows: 50% 50%;
-    border: 1px solid black;
-
+    grid-template-rows: repeat(2, 1fr);
+    border: 1px solid #000;
 }
 
-h1,
-p {
-    text-align: center;
-    padding: .5rem;
-
-}
-
-p {
-    margin-bottom: 50px;
+header nav,
+.map,
+.employee-grid,
+footer,
+.checkbox-item {
+    display: flex;
 }
 
 header nav {
     grid-column: 2;
-    display: flex;
     justify-content: space-around;
     align-items: flex-end;
 }
 
-h2 {
+h1,
+h2,
+p,
+.employees,
+.employee-grid figure {
     text-align: center;
+}
+
+p {
+    margin-bottom: 10px;
 }
 
 iframe {
@@ -62,19 +65,12 @@ iframe {
     display: grid;
     grid-template-columns: 320px 1fr;
     gap: 40px;
-    align-items: start;
-}
-
-.map {
-    display: flex;
-    justify-content: center;
 }
 
 .form-item {
     display: grid;
     grid-template-columns: 180px 1fr;
     gap: 10px 20px;
-    align-items: start;
     margin-bottom: 20px;
 }
 
@@ -96,35 +92,28 @@ textarea {
 }
 
 .checkbox-item {
-    display: flex;
     gap: 10px;
     align-items: center;
 }
 
 button {
     display: block;
-    margin: 20px auto;
     width: 250px;
+    margin: 20px auto;
     padding: 8px;
 }
 
 .employees {
-    border: 1px solid black;
-    padding: 20px;
     margin-top: 30px;
-    text-align: center;
-    background-color: lightblue;
+    padding: 20px;
+    border: 1px solid #000;
+    background: lightblue;
 }
 
 .employee-grid {
-    display: flex;
     justify-content: space-evenly;
     align-items: center;
     gap: 30px;
-}
-
-.employee-grid figure {
-    text-align: center;
 }
 
 .employee-grid img {
@@ -139,8 +128,7 @@ button {
 }
 
 footer {
-    display: flex;
     justify-content: center;
-    border: 1px solid black;
     padding: 10px;
+    border: 1px solid #000;
 }
