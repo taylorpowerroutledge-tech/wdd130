@@ -115,6 +115,15 @@ article {
 h2 {
     display: flex;
     justify-content: center;
+    background-color: var(--primary-color);
+
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
 
 }
 
@@ -340,8 +349,73 @@ button {
     padding: 10px;
 }
 
+.familytrip,
+.guideyourown,
+.intensity {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    text-align: center;
+    align-content: center;
+    margin: 1rem;
+
+}
+
+.familytrip p {
+    margin-top: 10px;
+}
+
+.guideyourown p,
+.intensity p {
+    margin-top: 20px;
+}
+
+.table {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px solid black;
+    letter-spacing: 1px;
+
+}
+
+th,
+td {
+    border: 2px solid black;
+    padding: 8px 12px;
+    text-align: center;
+}
+
+thead tr,
+tfoot tr {
+    background-color: black;
+    color: white;
+    font-weight: 700;
+}
+
+.book {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.book p {
+
+    text-align: center;
+    gap: 30px;
+}
+
+.book a {
+
+    margin: 0;
+}
+
 footer {
     display: flex;
     justify-content: center;
-    padding: 10px;
+
 }
