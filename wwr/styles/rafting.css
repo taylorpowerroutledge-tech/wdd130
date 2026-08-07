@@ -1,5 +1,5 @@
 :root {
-    --primary-color: rgb(135, 119, 255);
+    --primary-color: rgb(79, 123, 218);
     --secondary-color: rgb(183, 183, 183);
     --accent-color: black;
     --body-font: Arial, Helvetica, sans-serif;
@@ -314,9 +314,10 @@ button {
     color: black;
     text-decoration: none;
     text-align: center;
-    border: 1px solid black;
+    border: 2px solid black;
     margin-left: 50px;
     margin-top: 15px;
+    font-weight: bold;
 }
 
 .groups {
