@@ -292,7 +292,7 @@ button {
 
 .newsletter-container form {
     display: grid;
-    grid-template-columns: 2;
+    grid-template-columns: 25rem;
     align-items: flex-start;
     width: 420px;
 }
